@@ -1,0 +1,138 @@
+export type Project = {
+  id: string;
+  title: string;
+  category: string;
+  location: string;
+  year: string;
+  area: string;
+  duration: string;
+  img: string;
+  gallery: string[];
+  brief: string;
+  challenge: string;
+  solution: string;
+  result: string;
+};
+
+export const PROJECTS: Project[] = [
+  {
+    id: "banjara-hills-penthouse",
+    title: "Banjara Hills Penthouse",
+    category: "Residential",
+    location: "Banjara Hills, Hyderabad",
+    year: "2024",
+    area: "4,200 sq ft",
+    duration: "6 months",
+    img: "/images/penthouse.png",
+    gallery: ["/images/penthouse.png", "/images/living.png", "/images/bedroom.png"],
+    brief: "A luxurious penthouse designed for a young couple seeking a modern yet warm living space with panoramic city views.",
+    challenge: "The open floor plan required careful zoning to maintain intimacy while preserving the dramatic views across all living spaces.",
+    solution: "We used a combination of dropped ceilings with concealed lighting, custom walnut partitions, and a flowing marble floor palette to define distinct zones without walls.",
+    result: "A breathtaking penthouse that won the Interior Design Excellence Award 2024 and was featured in Architectural Digest India.",
+  },
+  {
+    id: "jubilee-hills-kitchen",
+    title: "Jubilee Hills Kitchen",
+    category: "Residential",
+    location: "Jubilee Hills, Hyderabad",
+    year: "2024",
+    area: "680 sq ft",
+    duration: "3 months",
+    img: "/images/kitchen.png",
+    gallery: ["/images/kitchen.png", "/images/living.png"],
+    brief: "A complete kitchen renovation for a family that loves entertaining, featuring high-end appliances and a grand island.",
+    challenge: "Integrating professional-grade appliances into a residential kitchen without losing the warm, inviting atmosphere.",
+    solution: "Dark walnut cabinetry was paired with Calacatta marble countertops and brass fixtures. A concealed pantry and appliance garage kept the space clutter-free.",
+    result: "A kitchen that seamlessly transitions from everyday family use to an elegant entertaining space.",
+  },
+  {
+    id: "hitech-city-office",
+    title: "Hi-Tech City Office",
+    category: "Commercial",
+    location: "Hi-Tech City, Hyderabad",
+    year: "2023",
+    area: "8,500 sq ft",
+    duration: "5 months",
+    img: "/images/office.png",
+    gallery: ["/images/office.png", "/images/retail.png"],
+    brief: "A tech startup's new headquarters designed to foster collaboration while providing quiet focus zones.",
+    challenge: "Creating a workspace that balances open collaboration with privacy needs for 60+ employees across a single floor plate.",
+    solution: "Acoustic glass pods, living walls, and a material palette of oak, felt, and raw concrete created distinct micro-environments within the open plan.",
+    result: "Employee satisfaction scores increased by 34% post-move, and the space was shortlisted for the Commercial Interior of the Year.",
+  },
+  {
+    id: "gachibowli-bedroom",
+    title: "Gachibowli Residence",
+    category: "Residential",
+    location: "Gachibowli, Hyderabad",
+    year: "2023",
+    area: "3,100 sq ft",
+    duration: "4 months",
+    img: "/images/bedroom.png",
+    gallery: ["/images/bedroom.png", "/images/bathroom.png", "/images/living.png"],
+    brief: "A serene residential project centered around creating calming private spaces for a family of four.",
+    challenge: "The clients wanted each bedroom to have its own personality while maintaining a cohesive design language throughout the home.",
+    solution: "We developed a unified material palette—oak, linen, stone—but varied the color temperature and accent materials in each room to create distinct moods.",
+    result: "A harmonious home where every room feels both unique and part of a greater whole.",
+  },
+  {
+    id: "madhapur-spa",
+    title: "Madhapur Spa & Wellness",
+    category: "Commercial",
+    location: "Madhapur, Hyderabad",
+    year: "2023",
+    area: "2,800 sq ft",
+    duration: "3.5 months",
+    img: "/images/bathroom.png",
+    gallery: ["/images/bathroom.png", "/images/bedroom.png"],
+    brief: "A premium day spa designed to transport visitors from the bustle of the city into complete tranquility.",
+    challenge: "The space was located in a busy commercial complex with significant ambient noise and limited natural light.",
+    solution: "Triple-layered acoustic walls, strategically placed water features, and a lighting scheme using warm LEDs behind translucent onyx created an immersive sensory cocoon.",
+    result: "Rated the top wellness space in Hyderabad on multiple platforms within its first three months of opening.",
+  },
+  {
+    id: "kondapur-restaurant",
+    title: "Kondapur Fine Dining",
+    category: "Hospitality",
+    location: "Kondapur, Hyderabad",
+    year: "2024",
+    area: "3,600 sq ft",
+    duration: "4 months",
+    img: "/images/restaurant.png",
+    gallery: ["/images/restaurant.png", "/images/retail.png", "/images/penthouse.png"],
+    brief: "A fine dining restaurant blending contemporary design with subtle South Indian cultural motifs.",
+    challenge: "Incorporating cultural elements without falling into cliché, while creating the intimate ambience expected of fine dining.",
+    solution: "We reinterpreted traditional brass and teak elements in a modern context—geometric screens, sculptural light fixtures, and hand-finished plaster walls in earthy tones.",
+    result: "The restaurant became an instant landmark, with the interior frequently cited in reviews as part of the dining experience.",
+  },
+  {
+    id: "kukatpally-retail",
+    title: "Kukatpally Boutique",
+    category: "Retail",
+    location: "Kukatpally, Hyderabad",
+    year: "2024",
+    area: "1,400 sq ft",
+    duration: "2.5 months",
+    img: "/images/retail.png",
+    gallery: ["/images/retail.png", "/images/office.png"],
+    brief: "A luxury fashion boutique designed to showcase clothing as art in a gallery-like retail environment.",
+    challenge: "Limited square footage required every inch to serve both display and customer experience purposes.",
+    solution: "Modular display systems with integrated lighting, mirrors that expand perceived space, and a curated material palette of brass, white oak, and ivory plaster.",
+    result: "Sales per square foot exceeded projections by 42%, validating the design-forward retail approach.",
+  },
+  {
+    id: "secunderabad-living",
+    title: "Secunderabad Villa",
+    category: "Residential",
+    location: "Secunderabad, Hyderabad",
+    year: "2024",
+    area: "5,800 sq ft",
+    duration: "8 months",
+    img: "/images/living.png",
+    gallery: ["/images/living.png", "/images/bedroom.png", "/images/kitchen.png", "/images/bathroom.png"],
+    brief: "A complete turnkey villa transformation for a multi-generational family seeking modern comfort with traditional warmth.",
+    challenge: "Designing spaces that cater to three generations—from young children to grandparents—with different lifestyle needs and aesthetic preferences.",
+    solution: "A 'graduated warmth' approach: contemporary communal spaces with progressively warmer, more traditional private quarters. Custom joinery unified the design language.",
+    result: "A home that every family member calls their own, featured in Home & Design magazine's 'Best of Hyderabad' issue.",
+  },
+];
