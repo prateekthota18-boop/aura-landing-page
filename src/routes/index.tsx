@@ -82,12 +82,18 @@ const CSS = `
 .rk-blurb p { font-size:13.5px; line-height:1.55; color:rgba(255,255,255,.92); }
 .rk-actions { display:flex; align-items:center; gap:18px; margin-top:18px; }
 .rk-btn {
-  background:#fff; color:#0D0D0D; padding:12px 22px;
-  font-size:13px; display:inline-flex; align-items:center; gap:8px;
-  border:none; cursor:pointer;
+  background:#C8A96E; color:#0D0D0D; padding:14px 26px;
+  font-size:13px; font-weight:600; letter-spacing:.04em; text-transform:uppercase;
+  display:inline-flex; align-items:center; gap:8px;
+  border:none; cursor:pointer; box-shadow:0 8px 24px rgba(0,0,0,.35);
 }
-.rk-btn:hover { background:#f1f1f1; }
-.rk-link { color:#fff; font-size:13px; display:inline-flex; align-items:center; gap:6px; }
+.rk-btn:hover { background:#d8b97a; }
+.rk-link {
+  color:#fff; font-size:13px; font-weight:500; letter-spacing:.04em; text-transform:uppercase;
+  display:inline-flex; align-items:center; gap:6px;
+  padding:14px 20px; border:1px solid rgba(255,255,255,.7);
+}
+.rk-link:hover { background:rgba(255,255,255,.1); }
 
 .rk-reel {
   width:170px; height:104px; position:relative;
