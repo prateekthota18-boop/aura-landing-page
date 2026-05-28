@@ -7,7 +7,7 @@ export const getRouter = () => {
 
   const router = createRouter({
     routeTree,
-    basepath: "/aura-landing-page/",
+    basepath: '/aura-landing-page/',
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
