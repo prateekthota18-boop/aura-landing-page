@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   base: '/aura-landing-page/',
-  build: { outDir: 'dist' },
+  build: { outDir: 'docs' },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
